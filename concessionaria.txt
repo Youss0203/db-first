@@ -2,13 +2,13 @@ Database concessionaria
 
 
 Id - Intero - MediumInt - PRIMARY_KEY UNIQUE AUTO_INCREMENT - NOT NULL
-Modello - Stringa - VARCHAR(7)  
+Modello - Stringa - Text - VARCHAR(7)  
 Anno di immatricolazione - Date
-Colore - Stringa - VARCHAR(50)
+Colore - Stringa - Text - VARCHAR(50)
 Prezzo - float - FLOAT(9, 2) 
 Km percorsi - Intero - MediumInt 
-Stato della macchina - Stringa - VARCHAR(255)
-Tipo di cambio - Stringa - VARCHAR(50)
-Tipo di alimentazione - Stringa - VARCHAR(30)
+Stato della macchina - Stringa - Text - VARCHAR(255)
+Tipo di cambio - Stringa - Text - VARCHAR(50)
+Tipo di alimentazione - Stringa - Text - VARCHAR(30)
 Revisione - Date
 Marce Intero 
